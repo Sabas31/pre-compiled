@@ -44,6 +44,14 @@ nano config.json
 ```
 CTRL + c
 ```
+Create boot directory & setting termux properties
+mkdir ~/.termux/boot
+nano ~/.termux/termux.properties
+
+Create script auto start termux and running verus mining.
+nano ~/.termux/boot/start-verus
+
+
 # Tips & Tricks:
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
