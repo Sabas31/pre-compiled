@@ -26,6 +26,7 @@ wget https://raw.githubusercontent.com/Sabas31/pre-compiled/generic/ccminer
 wget https://raw.githubusercontent.com/Sabas31/pre-compiled/generic/config.json
 wget https://raw.githubusercontent.com/Sabas31/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
+cp ./ccminer ../../usr/bin/start.sh
 ```
 # Usage:
 
