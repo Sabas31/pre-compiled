@@ -46,10 +46,14 @@ nano config.json
 CTRL + c
 ```
 Create boot directory & setting termux properties
+
 mkdir ~/.termux/boot
+
+
 nano ~/.termux/termux.properties
 
 Create script auto start termux and running verus mining.
+
 nano ~/.termux/boot/start-verus
 
 
