@@ -56,6 +56,6 @@ Create script auto start termux and running verus mining.
 
 nano ~/.termux/boot/start-verus
 
-##
-  echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
-
+```
+echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
+```
