@@ -46,15 +46,29 @@ nano config.json
 CTRL + c
 ```
 Create boot directory & setting termux properties
-
+```
 mkdir ~/.termux/boot
+```
 
-
+```
 nano ~/.termux/termux.properties
+```
 
 Create script auto start termux and running verus mining.
-
+```
 nano ~/.termux/boot/start-verus
+```
+
+```
+am startservice --user 0 -n com.termux/com.termux.app.RunCommandService \
+-a com.termux.RUN_COMMAND \
+--es com.termux.RUN_COMMAND_PATH '/data/data/com.termux/files/home/ccminer/start.sh' \
+--esa com.termux.RUN_COMMAND_ARGUMENTS '-n,5' \
+--es com.termux.RUN_COMMAND_WORKDIR '/data/data/com.termux/files/home' \
+--ez com.termux.RUN_COMMAND_BACKGROUND 'false' \
+--es com.termux.RUN_COMMAND_SESSION_ACTION '1'
+```
+
 
 ```
 echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
