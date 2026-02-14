@@ -76,4 +76,5 @@ termux-wake-lock
 
 ```
 echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
+echo "termux-wake-lock" >> ~/.bashrc
 ```
