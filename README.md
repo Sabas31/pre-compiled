@@ -69,6 +69,10 @@ am startservice --user 0 -n com.termux/com.termux.app.RunCommandService \
 --es com.termux.RUN_COMMAND_SESSION_ACTION '1'
 ```
 
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+```
 
 ```
 echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
