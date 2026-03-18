@@ -73,6 +73,10 @@ am startservice --user 0 -n com.termux/com.termux.app.RunCommandService \
 #!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
 ```
+```
+chmod +x ~/.termux/boot/start-verus
+```
+
 
 ```
 echo "/data/data/com.termux/files/home/ccminer/start.sh" >> ~/.bashrc
